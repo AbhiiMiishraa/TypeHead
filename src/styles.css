@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input-box {
+  width: 500px;
+  padding: 5px;
+}
+
+.result-container {
+  width: 500px;
+  margin: auto;
+  border: 1px solid black;
+  max-height: 500px;
+  overflow-y: scroll;
+
+  padding: 5px;
+  text-align: left;
+}
+.result {
+  display: block;
+  padding: 5px;
+}
+
+.result:hover {
+  background-color: red;
+  cursor: pointer;
+}
